@@ -25,7 +25,7 @@ let jsonPunkt = {
         "coordinates": [long, lat]
     },
     "properties": {
-        "name": "Christchurch"
+        "name": "Schengen"
     }
 }
 
@@ -277,7 +277,7 @@ let jsondata = {
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [172.636667, -43.531111]
+                "coordinates": [49.469972, 6.363708]
             },
             "properties": {
                 "nr": 19,
