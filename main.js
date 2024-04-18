@@ -2,7 +2,7 @@ let lat = 47.908683;
 let lng = -124.636604;
 let zoom = 11;
 
-let map = L.map('map').setView([lat,lng],11);
+let map = L.map('map').setView([lat,lng],zoom);
 
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
@@ -10,6 +10,14 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 let marker = L.marker([lat, lng]).addTo(map);
+
+marker.bindPopup(`
+      <h2>Tongariro Nationalpark</h2>
+      <ul>
+          <li>Breite: ${lat}</li>
+          <li>Länge: ${lng}</li>
+      </ul>
+  `).openPopup();
 
 L.control.scale({
     imperial: false
