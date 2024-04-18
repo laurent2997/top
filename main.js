@@ -18,261 +18,19 @@ L.control.scale({
     imperial: false
 }).addTo(map);
 
-let jsondata = {
+let jsonData = {
     "type": "FeatureCollection",
     "features": [
         {
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [172.67751, -34.426769]
+                "coordinates": [-124.636604, 47.908683]
             },
             "properties": {
-                "nr": 1,
-                "user": "danielwebmap",
-                "name": "Cape Reinga",
-                "wikipedia": "https://de.wikipedia.org/wiki/Cape_Reinga"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [174.8, -36.833333]
-            },
-            "properties": {
-                "nr": 2,
-                "user": "madeleinehll",
-                "name": "Auckland",
-                "wikipedia": "https://de.wikipedia.org/wiki/Auckland"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [176.070833, -38.684444]
-            },
-            "properties": {
-                "nr": 3,
-                "user": "laurauniibk",
-                "name": "Taupo",
-                "wikipedia": "https://de.wikipedia.org/wiki/Taup%C5%8D_(Stadt)"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [175.583333, -39.2]
-            },
-            "properties": {
-                "nr": 4,
                 "user": "webmapping",
-                "name": "Tongariro National Park",
-                "wikipedia": "https://de.wikipedia.org/wiki/Tongariro-Nationalpark"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [174.001944, -41.293056]
-            },
-            "properties": {
-                "nr": 5,
-                "user": "ernstanton",
-                "name": "Picton",
-                "wikipedia": "https://de.wikipedia.org/wiki/Picton_(Neuseeland)"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [172.8375, -41.819167]
-            },
-            "properties": {
-                "nr": 6,
-                "user": "annagruber263",
-                "name": "Nelson",
-                "wikipedia": "https://de.wikipedia.org/wiki/Nelson_(Neuseeland)"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [172.9, -40.833333]
-            },
-            "properties": {
-                "nr": 7,
-                "user": "kreiselinho",
-                "name": "Abel Tasman Nationalpark",
-                "wikipedia": "https://de.wikipedia.org/wiki/Abel-Tasman-Nationalpark"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [171.32694444444, -42.11861111111]
-            },
-            "properties": {
-                "nr": 8,
-                "user": "amjusi",
-                "name": "Pancake rocks (Punakaiki)",
-                "wikipedia": "https://www.wikiwand.com/de/Pancake_Rocks#introduction"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [170.19, -43.463]
-            },
-            "properties": {
-                "nr": 9,
-                "user": "marcfk",
-                "name": "Franz Josef Glacier",
-                "wikipedia": "https://de.wikipedia.org/wiki/Franz-Josef-Gletscher"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [170.15, -43.53]
-            },
-            "properties": {
-                "nr": 10,
-                "user": "sebspr",
-                "name": "Fox Glacier",
-                "wikipedia": "https://de.wikipedia.org/wiki/Fox-Gletscher"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [169.135278, -44.697222]
-            },
-            "properties": {
-                "nr": 11,
-                "user": "marcelboehm",
-                "name": "Wanaka",
-                "wikipedia": "https://de.wikipedia.org/wiki/Wanaka"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [167.866667, -44.616667]
-            },
-            "properties": {
-                "nr": 12,
-                "user": "sophiest01",
-                "name": "Milford Sound",
-                "wikipedia": "https://de.wikipedia.org/wiki/Milford_Sound/Piopiotahi"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [166.983333, -45.316667]
-            },
-            "properties": {
-                "nr": 13,
-                "user": "johanna135",
-                "name": "Doubtfull Sound",
-                "wikipedia": "https://en.wikipedia.org/wiki/Doubtful_Sound_/_Patea"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [170.5, -45.87]
-            },
-            "properties": {
-                "nr": 14,
-                "user": "czackl",
-                "name": "Dunedin",
-                "wikipedia": "https://de.wikipedia.org/wiki/Dunedin"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [170.826061, -45.345275]
-            },
-            "properties": {
-                "nr": 15,
-                "user": "meritkoch",
-                "name": "Moeraki Boulders",
-                "wikipedia": "https://de.wikipedia.org/wiki/Moeraki_Boulders"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [170.166667, -44.046667]
-            },
-            "properties": {
-                "nr": 16,
-                "user": "niklasschw",
-                "name": "Lake Pukaki",
-                "wikipedia": "https://de.wikipedia.org/wiki/Lake_Pukaki"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [170.142103, -43.595136]
-            },
-            "properties": {
-                "nr": 17,
-                "user": "bendai98",
-                "name": "Mount Cook",
-                "wikipedia": "https://de.wikipedia.org/wiki/Aoraki/Mount_Cook"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [170.516667, -43.883333]
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [12.566667, 43.35]
-            },
-            "properties": {
-                "nr": 18,
-                "user": "yle5",
-                "name": "Gubbio",
-                "wikipedia": "https://en.wikipedia.org/wiki/Gubbio"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [6.363708, 49.469972 ]
-            },
-            "properties": {
-                "nr": 19,
-                "user": "laurent2997",
-                "name": "Schengen",
-                "wikipedia": "https://de.wikipedia.org/wiki/Schengen"
+                "name": "La Push, Washington",
+                "wikipedia": "https://de.wikipedia.org/wiki/La_Push_(Washington)"
             }
         },
         {
@@ -282,14 +40,230 @@ let jsondata = {
                 "coordinates": [10.891667, 49.891667]
             },
             "properties": {
-                "nr": 20,
                 "user": "lealucia",
                 "name": "Bamberg",
                 "wikipedia": "https://de.wikipedia.org/wiki/Bamberg"
             }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [12.566667, 43.35]
+            },
+            "properties": {
+                "user": "yle5",
+                "name": "Gubbio",
+                "wikipedia": "https://de.wikipedia.org/wiki/Gubbio"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-19.511292, 63.5321038]
+            },
+            "properties": {
+                "user": "danielwebmap",
+                "name": "Skógafoss Waterfall",
+                "wikipedia": "https://de.wikipedia.org/wiki/Skógafoss"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-19.063889, 63.988611]
+            },
+            "properties": {
+                "user": "meritkoch",
+                "name": "Landmannalaugar",
+                "wikipedia": "https://de.wikipedia.org/wiki/Landmannalaugar"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [10.979589, 47.416604]
+            },
+            "properties": {
+                "user": "NiklasSchw",
+                "name": "Schneefernerhaus",
+                "wikipedia": "https://de.wikipedia.org/wiki/Schneefernerhaus"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [8.27, 50]
+            },
+            "properties": {
+                "user": "czackl",
+                "name": "Mainz",
+                "wikipedia": "https://de.wikipedia.org/wiki/Mainz"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [175.679722, -37.8575]
+            },
+            "properties": {
+                "user": "madeleinehll",
+                "name": "Hobbiton Movie Set, Auckland",
+                "wikipedia": "https://en.wikipedia.org/wiki/Hobbiton_Movie_Set"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [7.86675, 45.9369]
+            },
+            "properties": {
+                "user": "sophiest01",
+                "name": "Dufourspitze",
+                "wikipedia": "https://de.wikipedia.org/wiki/Dufourspitze"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [11.286111, 47.32]
+            },
+            "properties": {
+                "user": "Johanna135",
+                "name": "Gipfelstürmernadel",
+                "wikipedia": "https://de.wikipedia.org/wiki/Gipfelstürmernadel"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [11.421666666667, 47.426944444444]
+            },
+            "properties": {
+                "user": "amjusi",
+                "name": "Karwendel",
+                "wikipedia": "https://www.wikiwand.com/de/Karwendel"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [6.363708, 49.469972]
+            },
+            "properties": {
+                "user": "laurent2997",
+                "name": "Schengen",
+                "wikipedia": "https://de.wikipedia.org/wiki/Schengen"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [77.516667, 34.15]
+            },
+            "properties": {
+                "user": "marcelboehm",
+                "name": "Ladakh",
+                "wikipedia": "https://de.wikipedia.org/wiki/Ladakh"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [13.433611, 47.776389]
+            },
+            "properties": {
+                "user": "annagruber263",
+                "name": "Salzkammergut",
+                "wikipedia": "https://de.wikipedia.org/wiki/Salzkammergut"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [11.574444, 48.139722]
+            },
+            "properties": {
+                "user": "kreiselinho",
+                "name": "Munich",
+                "wikipedia": "https://de.wikipedia.org/wiki/M%C3%BCnchen"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [12.970926, 67.8802837]
+            },
+            "properties": {
+                "user": "bendai98",
+                "name": "Lofoten",
+                "wikipedia": "Top Page"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-16.64235, 28.27273]
+            },
+            "properties": {
+                "user": "marcfk",
+                "name": "Teide National Park",
+                "wikipedia": "https://de.wikipedia.org/wiki/Teide"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [11.616667, 52.133333]
+            },
+            "properties": {
+                "user": "ernstanton",
+                "name": "Magdeburg",
+                "wikipedia": "https://de.wikipedia.org/wiki/Magdeburg"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [11.799173, 45.873466]
+            },
+            "properties": {
+                "user": "laurauniibk",
+                "name": "Monte Grappa",
+                "wikipedia": "https://de.wikipedia.org/wiki/Monte_Grappa"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [11.250278, 46.816944]
+            },
+            "properties": {
+                "user": "sebspr",
+                "name": "Passeiertal",
+                "wikipedia": "https://de.wikipedia.org/wiki/Passeier"
+            }
         }
     ]
-};
+}
+
 
 
 L.geoJSON(jsondata, {}).bindPopup(function (layer) {
