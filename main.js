@@ -266,13 +266,13 @@ let jsondata = {
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [47.426944444444, 11.4216666666671771]
+                "coordinates": [49.469972, 6.363708 ]
             },
             "properties": {
                 "nr": 19,
                 "user": "laurent2997",
-                "name": "Christchurch",
-                "wikipedia": "https://de.wikipedia.org/wiki/Christchurch"
+                "name": "Schengen",
+                "wikipedia": "https://de.wikipedia.org/wiki/Schengen"
             }
         },
         {
