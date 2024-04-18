@@ -253,13 +253,13 @@ let jsondata = {
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [1,1]
+                "coordinates": [12.566667, 43.35]
             },
             "properties": {
                 "nr": 18,
                 "user": "yle5",
-                "name": "Lake Tekapo",
-                "wikipedia": "https://en.wikipedia.org/wiki/Lake_Tekapo"
+                "name": "Gubbio",
+                "wikipedia": "https://en.wikipedia.org/wiki/Gubbio"
             }
         },
         {
@@ -279,13 +279,13 @@ let jsondata = {
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [173.682222, -42.411667]
+                "coordinates": [10.891667, 49.891667]
             },
             "properties": {
                 "nr": 20,
                 "user": "lealucia",
-                "name": "Kaikoura",
-                "wikipedia": "https://de.wikipedia.org/wiki/Kaikoura_(Neuseeland)"
+                "name": "Bamberg",
+                "wikipedia": "https://de.wikipedia.org/wiki/Bamberg"
             }
         }
     ]
