@@ -267,7 +267,6 @@ let jsonData = {
 
 
 L.geoJSON(jsondata, {}).bindPopup(function (layer) {
-    console.log(layer.feature.properties)
     return `
     <h2>${layer.feature.properties.name}</h2>
     <ul>
@@ -286,26 +285,4 @@ L.geoJSON(jsondata, {}).bindPopup(function (layer) {
 
 
 
-
-
-
-
-/*
-//marker anzeigen
-console.log(marker);
-*/
-/*
-let age =10;
-console.log(age)
-*/
-
-let absatz = "Hallo Welt!";
-let nummer = 6;
-
-console.log(`
-<h3>Test fürs "Tutorial"</h3>
-<p>${absatz}</p>
-<p>Nummer plus 1 = ${nummer + 1} </p>
-<div id="map"></div>
-`);
 
