@@ -18,17 +18,6 @@ L.control.scale({
     imperial: false
 }).addTo(map);
 
-let jsonPunkt = {
-    "type": "Feature",
-    "geometry": {
-        "type": "Point",
-        "coordinates": [long, lat]
-    },
-    "properties": {
-        "name": "Schengen"
-    }
-}
-
 let jsondata = {
     "type": "FeatureCollection",
     "features": [
