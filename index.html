@@ -87,6 +87,8 @@
             <h3>Schengener Abkommen Skulptur</h3>
             <figure><img src="images/attraction.jpg" alt="Skulptur"></figure>
            
+            <h3>Übersichtskarte</h3>
+            <div id="map"></div>
 
             <h3>Weitere Links</h3>
             <ul>
@@ -98,19 +100,8 @@
 
 
         </article>
-    </main>
-  
+</main>
 
-    <script>var map = L.map('map').setView([49.469972, 6.363708], 13);
-        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            maxZoom: 19,
-            attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-        }).addTo(map);
-
-        var marker = L.marker([49.469972, 6.363708]).addTo(map);
-        marker.bindPopup("<b>The cradle of a borderless Europe</b><br>Zoom in.").openPopup();
-
-    </script>
 
 <footer>
     <h3>Navigation zu den anderen Etappen</h3>
