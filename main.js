@@ -2,8 +2,8 @@ let lat = 49.469972;
 let long = 6.363708;
 let zoom = 11;
 
-
-let map = L.map('map', {
+let kartenElement = document.querySelector("#map")
+let map = L.map(kartenElement, {
     center: [lat, long],
     zoom: zoom
 });
@@ -14,13 +14,11 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 let marker= L.marker([lat, long]).addTo(map);
-
-
 marker.bindPopup(`
 <h2>Schengen</h2>
 <ul>
-    <li>Breite: ${lat.toFixed(5)</li>}
-    <li>Länge: ${long.toFixed(5)</li>}
+    <li>Breite: ${lat.toFixed(5)}</li>
+    <li>Länge: ${long.toFixed(5)}</li>
 </ul>
 `).openPopup();
 
@@ -298,12 +296,3 @@ L.geoJSON(jsondata, {}).bindPopup(function (layer) {
     </ul>
     `;
 }).addTo(map);
-
-
-
-
-
-
-
-
-
