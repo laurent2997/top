@@ -13,6 +13,8 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
 
+let marker= L.marker([lat, long]).addTo(map);
+marker.bindPopup("<h2>Hello world!</h2><br>I am a popup.").openPopup();
 
 L.control.scale({
     imperial: false
